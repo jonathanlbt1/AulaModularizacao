@@ -1,6 +1,5 @@
-from Exercicio_111.utilidadescev import moedas, dado
+from Exercicio_112.utilidadescev import moedas
+from Exercicio_112.utilidadescev import dado
 
-preco = float(input("Digite o preço: R$"))
-a = int(input("Digite o aumento: "))
-r = int(input("Digite a redução: "))
-dado.formatacao(preco, a, r)
+p = dado.leiadinheiro("Digite o preço: R$")
+moedas.formatacao(p, 30, 10)
